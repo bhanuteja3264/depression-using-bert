@@ -135,7 +135,6 @@ This project is licensed under the **MIT License**.
 
 ### ⚙️ Want Help With:
 
-- ✅ `requirements.txt` generation  
 - ✅ GitHub Actions CI or badge integration  
 - ✅ Deployment setup (Streamlit, Flask, Hugging Face Spaces)
 
