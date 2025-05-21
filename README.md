@@ -61,3 +61,88 @@ The model is trained using:
 ```bash
 git clone https://github.com/yourusername/depression-detector.git
 cd depression-detector
+Here’s your content formatted properly as a **Markdown** section:
+
+````markdown
+## 2. 📦 Install Requirements
+
+```bash
+pip install torch transformers scikit-learn matplotlib pandas tkinter
+````
+---
+
+## 3. 📓 Train the Model
+
+Open and run the provided Jupyter Notebook:
+
+```bash
+jupyter notebook train_model.ipynb
+```
+
+The notebook will:
+
+* Load and preprocess the dataset
+* Train a BERT model
+* Save the model and tokenizer in the appropriate directories
+
+---
+
+## 4. ▶️ Run the GUI Application
+
+Run the GUI using:
+
+```bash
+python main.py
+```
+
+The GUI will open, allowing you to enter text and view the predicted depression severity.
+
+```
+
+Let me know if you want this styled for a `README.md`, rendered as a webpage, or extended with screenshots and visuals.
+```
+# 🧠 Input Example
+
+Type journal entries, survey answers, or general thoughts in the GUI like:
+
+> "I feel hopeless, have trouble sleeping, and lost interest in things I used to enjoy."
+
+And get predicted severity like:
+
+**Prediction:** _Moderately Severe_
+
+---
+
+## 💡 Future Improvements
+
+- Add sentiment and emotion detection alongside severity  
+- Export results to CSV or PDF  
+- Deploy as a web app (Streamlit/Flask)  
+- Mobile app integration  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙏 Acknowledgments
+
+- [Hugging Face Transformers](https://huggingface.co/transformers/)
+- [PyTorch](https://pytorch.org/)
+- [PHQ-9 Questionnaire](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/)
+- [BERT Paper (Devlin et al.)](https://arxiv.org/abs/1810.04805)
+
+---
+
+### ⚙️ Want Help With:
+
+- ✅ `requirements.txt` generation  
+- ✅ GitHub Actions CI or badge integration  
+- ✅ Deployment setup (Streamlit, Flask, Hugging Face Spaces)
+
+Let me know — I'm happy to help!
+
+
