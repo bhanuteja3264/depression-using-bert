@@ -61,11 +61,8 @@ The model is trained using:
 ```bash
 git clone https://github.com/yourusername/depression-detector.git
 cd depression-detector
-Here’s your content formatted properly as a **Markdown** section:
+```
 
-Here’s your content formatted properly as a **Markdown** section:
-
-````markdown
 ## 2. 📦 Install Requirements
 
 ```bash
