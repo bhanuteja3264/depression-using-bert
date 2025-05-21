@@ -32,6 +32,11 @@ The model is trained using:
 
 ## 📈 Model Evaluation
 
+### 📊 Confusion Matrix
+
+![image](https://github.com/user-attachments/assets/3b995dd1-8cd5-4709-a4ac-81c3f4eb6964)
+
+
 ### 🧾 Classification Report
 
 | **Severity Level**    | **Precision** | **Recall** | **F1-Score** | **Support** |
@@ -49,9 +54,10 @@ The model is trained using:
 
 ---
 
+## 🛠️ How to Run the Project
+
 ### 🔃 Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/depression-detector.git
 cd depression-detector
-
