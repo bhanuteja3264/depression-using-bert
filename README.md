@@ -97,10 +97,6 @@ python main.py
 
 The GUI will open, allowing you to enter text and view the predicted depression severity.
 
-```
-
-Let me know if you want this styled for a `README.md`, rendered as a webpage, or extended with screenshots and visuals.
-```
 # 🧠 Input Example
 
 Type journal entries, survey answers, or general thoughts in the GUI like:
