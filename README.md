@@ -63,12 +63,16 @@ git clone https://github.com/yourusername/depression-detector.git
 cd depression-detector
 Here’s your content formatted properly as a **Markdown** section:
 
+Here’s your content formatted properly as a **Markdown** section:
+
 ````markdown
 ## 2. 📦 Install Requirements
 
 ```bash
 pip install torch transformers scikit-learn matplotlib pandas tkinter
 ````
+
+
 ---
 
 ## 3. 📓 Train the Model
