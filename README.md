@@ -88,33 +88,12 @@ The notebook will:
 
 ---
 
-## 4. ▶️ Run the GUI Application
-
-Run the GUI using:
-
-```bash
-python main.py
-```
-
-The GUI will open, allowing you to enter text and view the predicted depression severity.
-
-# 🧠 Input Example
-
-Type journal entries, survey answers, or general thoughts in the GUI like:
-
-> "I feel hopeless, have trouble sleeping, and lost interest in things I used to enjoy."
-
-And get predicted severity like:
-
-**Prediction:** _Moderately Severe_
-
----
 
 ## 💡 Future Improvements
 
 - Add sentiment and emotion detection alongside severity  
-- Export results to CSV or PDF  
-- Deploy as a web app (Streamlit/Flask)  
+- Export results to CSV or PDF
+- Making a diary and send the notification to their guardians when the person get the sucicidal or killing thoughts 
 - Mobile app integration  
 
 ---
