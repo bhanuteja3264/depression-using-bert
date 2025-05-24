@@ -1,0 +1,8 @@
+Flask==3.0.3
+flask-pymongo==3.0.1
+flask-login==0.6.3
+werkzeug==3.0.3
+spacy==3.8.7
+transformers==4.41.2
+torch==2.3.0
+pymongo==4.7.2
