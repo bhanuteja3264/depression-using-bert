@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="dashboard">
+    <h2>Your Analysis History</h2>
+    <a class="btn" href="{{ url_for('main.upload') }}">Analyze New Text</a>
+    {% if user_texts %}
+        <table>
+            <tr>
+                <th>Text</th>
+                <th>Prediction</th>
+                <th>Score</th>
+                <th>Action</th>
+            </tr>
+            {% for text in user_texts %}
+            <tr>
+                <td>{{ text["raw_text"][:40] }}...</td>
+                <td>{{ text["prediction"]["label"] }}</td>
+                <td>{{ "%.2f"|format(text["prediction"]["score"]) }}</td>
+                <td>
+                    <a href="{{ url_for('main.result', text_id=text['_id']) }}">View</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No texts analyzed yet.</p>
+    {% endif %}
+</div>
+{% endblock %}

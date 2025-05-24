@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="home">
+    <h1>Welcome to the Depression Detection App</h1>
+    <p>This app uses advanced AI (BERT) to analyze your text and detect signs of depression or related moods.</p>
+    {% if not current_user.is_authenticated %}
+        <a class="btn" href="{{ url_for('auth.login') }}">Login</a>
+        <a class="btn" href="{{ url_for('auth.register') }}">Register</a>
+    {% endif %}
+</div>
+{% endblock %}

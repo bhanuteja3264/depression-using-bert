@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="result">
+    <h2>Analysis Result</h2>
+    <p><strong>Original Text:</strong></p>
+    <div class="result-text">{{ text_doc["raw_text"] }}</div>
+    <p><strong>Prediction:</strong>
+        <span class="prediction-label">{{ text_doc["prediction"]["label"] }}</span>
+         (Confidence: {{ "%.2f"|format(text_doc["prediction"]["score"]) }})
+    </p>
+    <p><strong>Explanation:</strong> {{ text_doc["explanation"] }}</p>
+    <h3>Preprocessing Details</h3>
+    <p><strong>Tokens:</strong> {{ text_doc["tokens"]|join(', ') }}</p>
+    <p><strong>Lemmas:</strong> {{ text_doc["lemmas"]|join(', ') }}</p>
+    <p><strong>Entities:</strong> 
+        {% if text_doc["entities"] %}
+            {{ text_doc["entities"]|join(', ') }}
+        {% else %}
+            None
+        {% endif %}
+    </p>
+    <a class="btn" href="{{ url_for('main.dashboard') }}">Back to Dashboard</a>
+</div>
+{% endblock %}
